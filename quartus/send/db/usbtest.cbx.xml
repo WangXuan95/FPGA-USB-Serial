@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="usbtest">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|ip:pll_i|altpll:altpll_component" CBX_FILE_NAME="ip_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|usb_serial:usb_serial_i|usb_cdc:usb_cdc_i|altsyncram:rxbuf_rtl_0" CBX_FILE_NAME="altsyncram_7ii1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|usb_serial:usb_serial_i|usb_cdc:usb_cdc_i|altsyncram:txbuf_rtl_0" CBX_FILE_NAME="altsyncram_nhi1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

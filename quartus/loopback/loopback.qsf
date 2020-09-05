@@ -64,5 +64,4 @@ set_global_assignment -name VHDL_FILE ../../RTL/usb_init.vhdl
 set_global_assignment -name VHDL_FILE ../../RTL/usb_packet.vhdl
 set_global_assignment -name VHDL_FILE ../../RTL/usb_transact.vhdl
 set_global_assignment -name VHDL_FILE ../../RTL/usb_control.vhdl
-set_global_assignment -name CDF_FILE loopback.cdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
